@@ -1,0 +1,41 @@
+# Build output (CMake build dir, including the downloaded raylib sources)
+build/
+cmake-build-*/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+_deps/
+
+# Binaries and objects
+mario
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.so
+*.dll
+*.pdb
+*.dSYM/
+
+# Screenshots raylib writes when F12 is pressed
+screenshot*.png
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Secrets and local config (never commit these)
+.env
+.env.*
+*.pem
+*.key
